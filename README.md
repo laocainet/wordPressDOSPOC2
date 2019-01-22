@@ -4,11 +4,15 @@ exhausts DB connections on some shared hosting, running certain, vulnerable conf
 usage: 
 
 
-#run
+run:
+
+
 ./fu.sh | YOUR TARGET WP INSTALLATION IN WHICH YOU OWN!!!! | WP USER | # OF SECONDS TO SLEEP AFTER EACH REQUEST
 
 
-#in parallel with 
+in parallel with:
+
+
 ./rtor.sh | # OF SECONDS TO CYCLE IP 
 
 Requires Bash, Tor, and Curl.
