@@ -1,5 +1,5 @@
 # wordPressDOSPOC2
-exhausts DB connections on some shared hosting.
+exhausts DB connections on some shared hosting, running certain, vulnerable configurations of wordpress.
 
 usage: 
 #run
