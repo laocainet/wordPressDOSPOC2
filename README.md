@@ -2,8 +2,12 @@
 exhausts DB connections on some shared hosting, running certain, vulnerable configurations of wordpress.
 
 usage: 
+
+
 #run
 ./fu.sh | YOUR TARGET WP INSTALLATION IN WHICH YOU OWN!!!! | WP USER | # OF SECONDS TO SLEEP AFTER EACH REQUEST
+
+
 #in parallel with 
 ./rtor.sh | # OF SECONDS TO CYCLE IP 
 
