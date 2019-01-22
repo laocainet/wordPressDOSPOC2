@@ -1,5 +1,5 @@
 # wordPressDOSPOC2
-exhausts DB connections on some shared hosting, running certain, vulnerable configurations of wordpress.
+exhausts DB connections, and causes various other server related issues, through repeatedly making "Get New Password" requests to the wordpress login script. Works on some shared hosting, running certain, vulnerable configurations of wordpress.
 
 usage: 
 
